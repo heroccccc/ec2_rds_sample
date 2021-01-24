@@ -8,5 +8,4 @@ def get_sample():
     return render_template('sample1.html', name=name)
 
 if __name__ == "__main__":
-    app.run(debug=True)
     app.run(host='0.0.0.0')
